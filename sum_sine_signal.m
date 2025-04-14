@@ -123,7 +123,7 @@ function process_signal_spectrum(signal, fs, freq, signal_name, win_rect, win_tr
   ylabel('Amplitude');
   grid on;
   
-  print(sprintf("./image/2%s_amplitude_spectrum.png", signal_name), '-dpng', '-S3200,1800');
+  print(sprintf("./image/(2)%s_amplitude_spectrum.png", signal_name), '-dpng', '-S3200,1800');
   
   figure;
   subplot(2, 2, 1);
@@ -154,5 +154,5 @@ function process_signal_spectrum(signal, fs, freq, signal_name, win_rect, win_tr
   ylabel('Power');
   grid on;
   
-  print(sprintf("./image/%s_power_spectrum.png", signal_name), '-dpng', '-S3200,1800');
+  print(sprintf("./image/(2)%s_power_spectrum.png", signal_name), '-dpng', '-S3200,1800');
 endfunction
