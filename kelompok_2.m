@@ -1,0 +1,1 @@
+sum_sine_signal(sins{1}, sins{2}, sins{3})
